@@ -1,3 +1,33 @@
 
-@import "compass/reset";
+/**
+ *  Imports
+ */
 
+@import "base";
+
+/**
+ *  Styles
+ */
+
+/**
+ *  Text
+ */
+
+@mixin font-offset ($size: 160px, $color: #222222) {
+	font-size: $size;
+	color: $color;
+	text-shadow: 4.59627px 3.85673px 0 white, 9.19253px 7.71345px 0 #cccccc;
+}
+
+body {
+	@include background-cicada-stripes(lighten(gray, 45%));
+}
+
+body > nav {
+	height: 100px;
+	background-color: steelblue;
+}
+
+#logo {
+	@include font-offset;
+}

@@ -1,0 +1,88 @@
+/**
+ *  Imports
+ */
+/**
+ *  Imports
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/**
+ *  Styles
+ */
+/**
+ *  Text
+ */
+body {
+  background-color: #f3f3f3;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(50%, rgba(255, 255, 255, 0.07)), color-stop(50%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(50%, rgba(255, 255, 255, 0.13)), color-stop(50%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(255, 255, 255, 0.17))), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(255, 255, 255, 0.19)));
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.07) 50%, rgba(0, 0, 0, 0) 50%), -webkit-linear-gradient(left, rgba(255, 255, 255, 0.13) 50%, rgba(0, 0, 0, 0) 50%), -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.17) 50%), -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0.07) 50%, rgba(0, 0, 0, 0) 50%), -moz-linear-gradient(left, rgba(255, 255, 255, 0.13) 50%, rgba(0, 0, 0, 0) 50%), -moz-linear-gradient(left, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.17) 50%), -moz-linear-gradient(left, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.07) 50%, rgba(0, 0, 0, 0) 50%), -o-linear-gradient(left, rgba(255, 255, 255, 0.13) 50%, rgba(0, 0, 0, 0) 50%), -o-linear-gradient(left, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.17) 50%), -o-linear-gradient(left, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-image: linear-gradient(left, rgba(255, 255, 255, 0.07) 50%, rgba(0, 0, 0, 0) 50%), linear-gradient(left, rgba(255, 255, 255, 0.13) 50%, rgba(0, 0, 0, 0) 50%), linear-gradient(left, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.17) 50%), linear-gradient(left, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.19) 50%);
+  background-size: 13px, 29px, 37px, 53px;
+}
+
+body > nav {
+  height: 100px;
+  background-color: steelblue;
+}
+
+#logo {
+  font-size: 160px;
+  color: #222222;
+  text-shadow: 4.59627px 3.85673px 0 white, 9.19253px 7.71345px 0 #cccccc;
+}
