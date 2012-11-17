@@ -1,0 +1,10 @@
+
+/**
+ *  Font Mixins
+ */
+
+@mixin font-offset ($size: 2em, $color: #222222) {
+	font-size: $size;
+	color: $color;
+	text-shadow: 0.5px 0.5px 0 white, 1px 1px 0 #cccccc;
+}

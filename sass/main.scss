@@ -3,29 +3,34 @@
  *  Imports
  */
 
+// Namespaces
+@import "compass/css3";
+
+// Variables
 @import "base";
+
+// Fonts Mixins
+@import "fonts";
 
 /**
  *  Styles
  */
 
-/**
- *  Text
- */
-
-@mixin font-offset ($size: 160px, $color: #222222) {
-	font-size: $size;
-	color: $color;
-	text-shadow: 4.59627px 3.85673px 0 white, 9.19253px 7.71345px 0 #cccccc;
-}
-
 body {
-	@include background-cicada-stripes(lighten(gray, 45%));
-}
-
-body > nav {
-	height: 100px;
-	background-color: steelblue;
+	// @include background-cicada-stripes(lighten(gray, 46%));
+	background-img: "http://elementalcode.net/wp-content/themes/accentbox/images/cbg.png";
+	
+	
+	> header,
+	> #main-content,
+	> footer {
+		max-width: 960x;
+	}
+	
+	> nav {
+	height: 101px;
+		background-color: steelblue;
+	}
 }
 
 #logo {
