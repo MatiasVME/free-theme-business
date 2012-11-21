@@ -1,0 +1,21 @@
+
+/**
+ *  Background Mixins
+ */
+
+/* http://lea.verou.me/css3patterns */
+@mixin background-cross ($background: #708090, $cross: #A8B1BB) {
+	background: 
+	radial-gradient(circle, transparent 20%, $background 20%, $background 80%, transparent 80%, transparent),
+	radial-gradient(circle, transparent 20%, $background 20%, $background 80%, transparent 80%, transparent) 50px 50px,
+	linear-gradient($cross 8px, transparent 8px) 0 -4px,
+	linear-gradient(90deg, $cross 8px, transparent 8px) -4px 0;
+	background-color: $background;
+	background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;; background: 
+	-webkit-radial-gradient(circle, transparent 20%, $background 20%, $background 80%, transparent 80%, transparent),
+	-webkit-radial-gradient(circle, transparent 20%, $background 20%, $background 80%, transparent 80%, transparent) 50px 50px,
+	-webkit-linear-gradient($cross 8px, transparent 8px) 0 -4px,
+	-webkit-linear-gradient(0deg, $cross 8px, transparent 8px) -4px 0;
+	background-color: $background;
+	background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+}

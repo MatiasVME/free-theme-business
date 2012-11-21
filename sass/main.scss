@@ -3,34 +3,51 @@
  *  Imports
  */
 
-// Namespaces
-@import "compass/css3";
-
-// Variables
 @import "base";
-
-// Fonts Mixins
-@import "fonts";
 
 /**
  *  Styles
  */
 
 body {
-	// @include background-cicada-stripes(lighten(gray, 46%));
-	background-img: "http://elementalcode.net/wp-content/themes/accentbox/images/cbg.png";
+	@include background-cross ($grey, $lightgrey);
 	
-	
-	> header,
-	> #main-content,
-	> footer {
-		max-width: 960x;
+	> header {
+		
+		#logo {
+			padding: {
+				top: 5px;
+				left: 5px;
+			}
+		}
+		
+		> nav {
+			height: 50px;
+			background-color: $blue;
+
+			> ul {
+				float: right;
+			}
+		}
+	}
+
+	> footer { 
+		
+	} 
+}
+
+#main-nav {
+	h1 {
+		float: left;
 	}
 	
-	> nav {
-	height: 101px;
-		background-color: steelblue;
+	li {
+		@include inline-block;
 	}
+}
+
+#main-container {
+	max-width: 960x;
 }
 
 #logo {

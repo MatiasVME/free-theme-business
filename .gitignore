@@ -1,9 +1,6 @@
 # Sass
 /.sass-cache
 
-# CSS
-/css
-
 # Temporales en Linux
 *.directory
 *~

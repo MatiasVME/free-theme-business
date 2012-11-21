@@ -3,5 +3,34 @@
  *  Imports
  */
 
+// Compass
+@import "compass/css3";
 @import "compass/reset";
-@import "recipes/background/cicada-stripes";
+
+// Recipes (gem)
+// @import "recipes/background/cicada-stripes";
+
+// Font Mixins
+@import "font";
+
+// Background Mixins
+@import "background";
+
+/**
+ *  Variables
+ */
+
+
+	/**
+	 *  Colors
+	 */
+
+	// Color pattern 
+	// (http://www.colourlovers.com/palette/148712/Gamebookers)
+
+	// Colors theme sorted
+	$organge: #ff9900;
+	$black: #424242;
+	$lightgrey: #E9E9E9;
+	$grey: #BCBCBC;
+	$blue: #3299BB;
